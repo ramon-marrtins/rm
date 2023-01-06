@@ -1,30 +1,33 @@
 <!DOCTYPE html>
-<html lang="rm-2005">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Login</title>
 </head>
 <body>
-   <h1>Crie sua conta aqui</h1>
+  <div class="main-login">
+      <div class="left-login">
+        <h1>Faça Login e acesse sua conta</h1>
+         <img src="tecnologia.svg" class="left-login-image" alt="tecnologia">
+     </div>
+  <div class="right-login">
+    <div class="card-login">
+      <h1>LOGIN</h1>
+      <div class="textfield">
+        <label for="nome">Nome</label>
+        <input type="text" name="name" placeholder="name">
+      </div>
+
+      <div class="textfield">
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" placeholder="senha">
+      </div>
+      <button class="btn-entrar">Entrar</button>
+    </div>
+    </div>
+  </div>
 </body>
-
-<form>
-    <input type="text" name="nome" placeholder="Nome">
-    <input type="e-mail" name="email" placeholder="Email">
-    <input type="number" name="senha" placeholder="Senha">
-    <input type="submit" name="enviar" value="Enviar">    
-
-    <form>
-        <input type="button" value="Clique Aqui" onclick="msg()">
-      </form>
-      
-      <script>
-      function msg() {
-        alert("Você clicou no botão!");
-      }
-      </script>
-</form>
 </html>
