@@ -20,7 +20,7 @@ body{
 }
 
 .left-login > h1{
-    color: #b3ff00;
+    color: #00ff88;
 }
 
 .left-login-image{
@@ -48,7 +48,7 @@ body{
 }
 
 .card-login > h1{
-    color: #3700ff;
+    color:#00ff88;
     font-weight: 800;
     margin: 0;
 }
